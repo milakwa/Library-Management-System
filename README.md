@@ -24,4 +24,43 @@ The project applies the following OOP concepts:
 - **EBook:** Borrowing duration of 21 days.
 - **ReferenceBook:** Cannot be borrowed.
 
-## Member
+## Member Types
+- **StudentMember:** Maximum of 3 borrowed books.
+- **TeacherMember:** Maximum of 5 borrowed books.
+- **GuestMember:** Maximum of 1 borrowed book.
+
+## Technologies
+- Java
+- NetBeans IDE
+- Git and GitHub
+
+## Project Structure
+```text
+Library-Management-System/
+├── src/
+│   └── library/
+│       └── system/
+│           ├── Book.java
+│           ├── EBook.java
+│           ├── PhysicalBook.java
+│           ├── ReferenceBook.java
+│           ├── LibraryMember.java
+│           ├── StudentMember.java
+│           ├── TeacherMember.java
+│           ├── GuestMember.java
+│           ├── Library.java
+│           └── LibrarySystem.java
+├── nbproject/
+├── build.xml
+├── manifest.mf
+└── README.md
+```
+
+## How to Run
+1. Clone or download the repository.
+2. Open NetBeans IDE.
+3. Open the project in NetBeans.
+4. Run the `LibrarySystem` class if it contains the application's main method.
+
+## Author
+Developed as a Java Object-Oriented Programming project.
